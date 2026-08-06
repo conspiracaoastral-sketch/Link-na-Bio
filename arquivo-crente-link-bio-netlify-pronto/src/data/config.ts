@@ -1,0 +1,117 @@
+import { BibleMeditation, Product } from '../types';
+
+export const APP_CONFIG = {
+  header: {
+    selo: 'BIBLIOTECA DIGITAL • EBD',
+    nome: 'ARQUIVO CRENTE',
+    descricao: 'Estudos bíblicos profundos, recursos para EBD e ferramentas digitais para fortalecer sua fé, sua família e seu ensino da Palavra.',
+    shareButtonText: 'Compartilhar página',
+  },
+  metrics: [
+    { value: '5,9 MIL+', label: 'INSCRITOS' },
+    { value: '200+', label: 'VÍDEOS' },
+    { value: '5', label: 'PRODUTOS' },
+  ],
+  links: {
+    youtubeVideos: 'https://www.youtube.com/@arquivocrente/videos',
+    youtubeChannel: 'https://www.youtube.com/@arquivocrente',
+    youtubeJoin: 'https://www.youtube.com/@arquivocrente/join',
+    whatsapp: 'https://chat.whatsapp.com/HHlTdMuBcEtGllmoeAbHzX',
+    apoiase: 'https://apoia.se/arquivocrente',
+    googleDrive: 'https://drive.google.com/drive/u/1/folders/13YKraaWFJX4dVKio3t_WJtEgQ4CklS8O',
+  },
+  pix: {
+    chave: 'arquivocrente@gmail.com',
+    tipo: 'E-mail',
+    favorecido: 'EBERTH A DOS S SILVA',
+    disclaimer: 'Antes de concluir, confira os dados do favorecido no aplicativo do seu banco.',
+  },
+  products: [
+    {
+      id: 'prod-1',
+      title: '21 Dias com Deus em Família',
+      description: 'Uma jornada devocional para fortalecer a fé, a oração e a unidade dentro do lar.',
+      buttonText: 'CONHECER O PRODUTO',
+      link: 'https://profwlissesmacedo.my.canva.site/21-dias-com-deus-em-fam-lia',
+      coverImage: 'https://drive.google.com/thumbnail?id=1x-2kzWJJKIyO7aFjP2wuy9FEacWp5hJC&sz=w1000',
+    },
+    {
+      id: 'prod-2',
+      title: 'Salmos Explicados em Mapas Visuais',
+      description: 'Um estudo visual e organizado para compreender os Salmos com mais clareza, contexto e aplicação.',
+      buttonText: 'CONHECER O PRODUTO',
+      link: 'https://profwlissesmacedo.my.canva.site/landing-page-salmos',
+      coverImage: 'https://drive.google.com/thumbnail?id=1ay-U63WD9Fl3wOg19jUqcHsUpKMMobjz&sz=w1000',
+    },
+    {
+      id: 'prod-3',
+      title: 'Trunfo Bíblico',
+      description: 'Um jogo educativo para aprender conteúdos e personagens bíblicos de forma leve e competitiva.',
+      buttonText: 'CONHECER O PRODUTO',
+      link: 'https://profwlissesmacedo.my.canva.site/trunfo',
+      coverImage: 'https://drive.google.com/thumbnail?id=1A0dRHPt2FeRFRIbHJVAQHukMYuMzz98U&sz=w1000',
+    },
+    {
+      id: 'prod-4',
+      title: 'O Professor de EBD Transformador',
+      description: 'Princípios e ferramentas práticas para preparar aulas bíblicas mais claras, profundas e transformadoras.',
+      buttonText: 'CONHECER O PRODUTO',
+      link: 'https://profwlissesmacedo.my.canva.site/professor-de-ebd-transformador',
+      coverImage: 'https://drive.google.com/thumbnail?id=1TTVuE941Z4DO0wKoJPNBVKToIN7stsx8&sz=w1000',
+    },
+    {
+      id: 'prod-5',
+      title: 'Antes da Batalha',
+      description: 'Uma jornada de preparação espiritual para enfrentar desafios com fé, discernimento e firmeza.',
+      buttonText: 'CONHECER O PRODUTO',
+      link: 'https://profwlissesmacedo.my.canva.site/antesdabatalha',
+      coverImage: 'https://drive.google.com/thumbnail?id=1QvHCLzQKjzZW9g5D5kUqI_RbnQ8EPMcQ&sz=w1000',
+    },
+  ] as Product[],
+  meditations: [
+    {
+      id: 1,
+      reference: 'Provérbios 4:23',
+      verse: 'Sobre tudo o que se deve guardar, guarda o teu coração, porque dele procedem as fontes da vida.',
+      meditation: 'Guardar o coração significa selecionar com sabedoria o que permitimos habitar em nossas mentes e afeições. O ensino fiel nasce de uma vida interior guardada em Deus.',
+    },
+    {
+      id: 2,
+      reference: 'Salmos 119:105',
+      verse: 'Lâmpada para os meus pés é tua palavra, e luz para o meu caminho.',
+      meditation: 'A Escritura não lança um holofote distante para todo o futuro de uma só vez, mas ilumina com precisão cada passo do presente com clareza e verdade.',
+    },
+    {
+      id: 3,
+      reference: 'Mateus 5:14-16',
+      verse: 'Vós sois a luz do mundo; não se pode esconder uma cidade edificada sobre um monte.',
+      meditation: 'Nosso testemunho cristão na família e na igreja deve ser evidente. A verdade ensinada e vivida produz frutos duradouros no ambiente ao nosso redor.',
+    },
+    {
+      id: 4,
+      reference: 'Provérbios 22:6',
+      verse: 'Instrui o menino no caminho em que deve andar, e até quando envelhecer não se desviará dele.',
+      meditation: 'O ensino no lar é a fundação mais sólida da educação cristã. Dedicar tempo ao devocional em família edifica gerações preparadas para os desafios do mundo.',
+    },
+    {
+      id: 5,
+      reference: 'Colossenses 3:16',
+      verse: 'Habite ricamente em vós a palavra de Cristo, instruindo-vos e aconselhando-vos uns aos outros em toda a sabedoria.',
+      meditation: 'O acervo da palavra divina deve ser o tesouro abundante de onde extraímos a sabedoria para edificar, aconselhar e fortalecer o próximo.',
+    },
+    {
+      id: 6,
+      reference: '2 Timóteo 2:15',
+      verse: 'Procura apresentar-te a Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade.',
+      meditation: 'Manejar bem a palavra requer estudo zeloso, dedicação contínua e humildade. Preparar uma aula da EBD é um ato sagrado de serviço e entrega.',
+    },
+    {
+      id: 7,
+      reference: 'Josué 1:8',
+      verse: 'Não se aparte da tua boca o livro desta lei; antes medita nele dia e noite, para que tenhas cuidado de fazer conforme a tudo quanto nele está escrito.',
+      meditation: 'A constante meditação nas Escrituras fortalece a firmeza e o discernimento necessários para enfrentar qualquer batalha diária.',
+    },
+  ] as BibleMeditation[],
+  footerText: 'Uma biblioteca digital para aprender, ensinar e viver a Palavra com profundidade.',
+  copyright: '© 2026 Arquivo Crente. Todos os direitos reservados.',
+};

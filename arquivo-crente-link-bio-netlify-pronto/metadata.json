@@ -1,0 +1,6 @@
+{
+  "name": "Arquivo Crente - Link na Bio",
+  "description": "Biblioteca digital pública e comercial do canal Arquivo Crente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
