@@ -16,7 +16,7 @@ export const APP_CONFIG = {
     youtubeVideos: 'https://www.youtube.com/@arquivocrente/videos',
     youtubeChannel: 'https://www.youtube.com/@arquivocrente',
     youtubeJoin: 'https://www.youtube.com/@arquivocrente/join',
-    whatsapp: 'https://chat.whatsapp.com/HHlTdMuBcEtGllmoeAbHzX',
+    whatsapp: 'https://chat.whatsapp.com/Fz5U0JVOS5VIsas6yznbyM',
     apoiase: 'https://apoia.se/arquivocrente',
     googleDrive: 'https://drive.google.com/drive/u/1/folders/13YKraaWFJX4dVKio3t_WJtEgQ4CklS8O',
   },
